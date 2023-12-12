@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import pickle
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('random_forest.pkl', 'rb'))
 
 st.title("Unegui.mn Laptop Listings Dashboard")
 
